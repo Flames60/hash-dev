@@ -1,0 +1,82 @@
+<html>
+	<head>
+		<title>dev.hashtagtees . Home</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+		<style>
+			body {
+				padding-top: 60px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="navbar navbar-fixed-top">
+			<div class="navbar-inner">
+				<div class="container">
+					<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="brand" id="logo" href="index.html">dev.hahstagtees.net</a>
+					<div class="nav-collapse collapse">
+						<ul class="nav">
+							<li>
+								<a href="index.html">Dev Home</a>
+							</li>
+							<li class="active">
+								<a href="#">Tweet Parser</a>
+							</li>
+							<li>
+								<a href="resources.html">Resources</a>
+							</li>
+							<li>
+								<a href="http://beta.hashtagtees.net/index.html">beta Site</a>
+							</li>
+							<li>
+								<a href="http://www.hashtagtees.net/new">inDev Site</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<h1>Tweet Parser</h1>
+			<br />
+			<p>Paste order html and copy parsered html tweets.</p>
+			<div class="container-fluid">
+				<div class="row-fluid">
+					<div class="span6">
+						<textarea rows="20" placeholder="Paste html here." id="html_to_parse"></textarea>
+					</div>
+					<div class="span6" id="parsed_tweets_area"></div>
+				</div>
+				<div class="rows-fluid">
+					<div class="span12">
+						<center>
+							<button class="btn btn-primary" id="parse_button">Parse!</button>
+						</center>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="js/bootstrap.js"></script>
+		<script src="js/jquery.js"></script>
+		<script src="js/bootstrap-transition.js"></script>
+		<script src="js/bootstrap-alert.js"></script>
+		<script src="js/bootstrap-modal.js"></script>
+		<script src="js/bootstrap-dropdown.js"></script>
+		<script src="js/bootstrap-scrollspy.js"></script>
+		<script src="js/bootstrap-tab.js"></script>
+		<script src="js/bootstrap-tooltip.js"></script>
+		<script src="js/bootstrap-popover.js"></script>
+		<script src="js/bootstrap-button.js"></script>
+		<srcipt src="js/bootstrap-collapse.js"></script>
+		<script src="js/bootstrap-carousel.js"></script>
+		<script src="js/bootstrap-typeahead.js"></script>
+		<script src="js/tweet_parser.js"></script>
+	</body>
+</html>
